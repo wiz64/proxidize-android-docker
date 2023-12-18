@@ -1,3 +1,27 @@
+# Dockerized Proxidize-Android Server
+
+This Project is a containerized version of proxidize-android/server.
+
+You can use this to spin up multiple containers for the image/server without conflicting, or just use it in a containerized environment.
+
+BUILDING THE IMAGE :
+```
+bash build.sh
+```
+
+Running the image
+
+```
+docker run -d -t -p 5501:2000 proxidize-server:latest /root/server/server
+```
+
+Replace `5501` with your host server port & `2000` is your container port, set it accordingly to settings.ini
+
+
+<br/>
+
+
+---
 # Proxidize Android: Create 5G/4G Mobile Proxy Farms on Android Phones
 
 Proxidize Android Legacy is an Android application that enables anyone to make 4G or 5G mobile proxy farms using their Android phones without the need of anything else. Just download the app, hit connect, and your mobile proxy will be automatically generated.
