@@ -2,6 +2,8 @@
 
 This Project is a containerized version of proxidize-android/server.
 
+Based on Ubuntu 20.04
+
 You can use this to spin up multiple containers for the image/server without conflicting, or just use it in a containerized environment.
 
 BUILDING THE IMAGE :
